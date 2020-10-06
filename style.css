@@ -5,9 +5,9 @@ nav {
     width:100%;
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: flex-end;
     opacity: 60%;
-
+    font-size: 22px;
     background: #333;
 }
 nav a{
@@ -17,7 +17,7 @@ nav a{
     
 }
 nav a :hover{   
-background: #9D8DF1;
+background: #10381f;
 }
 html{
      font-size: 16px;
@@ -44,7 +44,7 @@ body{
     display: flex;
     Margin: 2rem auto;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     border: solid white;
 }
 h1,
@@ -55,13 +55,21 @@ p
 {
     text-align: center;
 }
+.href{
+ color:tan;
+}
+
 header{
     padding: 2em 0;
+    text-align: center;
+    font-size: 18px;
 }
 footer{
     margin-top: 2rem;
     margin-bottom: 1em;
     background: gray;
-    color: red;
+    opacity: 60%;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
