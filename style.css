@@ -31,9 +31,12 @@ footer{
     justify-content: center;
 }
 .main-container{
-background:#411D13 ;
+background: #411D13;
+border-radius: .25rem;
 opacity: 90%;
-box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.925);
+margin: 2em auto;
+padding: 2em ;
 }
 body{
     background-image: url(images/martin-katler-T7oueegdnHE-unsplash.jpg);
@@ -43,11 +46,43 @@ body{
 .Container{
     display: flex;
     Margin: 2rem auto;
+    padding: 11px;
+    min-width: 10rem;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    justify-content: space-around;
+    justify-content: space-around ;
     border: solid white;
+    border-radius: .25rem;
+    background-color:#817f7e;
+    opacity: 100;
+    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.425);
+}
+.flexItem--1{
+    border: solid white;
+    border-radius: .25rem;
+    padding: 2em;
+}
+.flexItem--2{
+    border: solid white;
+    border-radius: .25rem;
+    padding: 2em;
+   
+}
+.flexItem--3{
+    border: solid white;
+    border-radius: .25rem;
+    padding: 2em;
+}
+#AboutMe{
+    border:solid white ;
+    border-radius: .25rem;
+    padding: 1em ;
+    margin-bottom: 1em;
+}
+#TechStack{
+    border: solid white;
+    border-radius: .25rem;
 }
 h1,
 h2, 
