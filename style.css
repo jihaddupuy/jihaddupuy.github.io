@@ -13,11 +13,11 @@ nav {
 nav a{
     padding: .5em .2em ;
     text-decoration: none;
-    color:white;
+    color:tan;
     font-family: 'roboto', sans-serif ;
     
 }
-nav a :hover{   
+nav a :hover, a:active{   
 background: #10381f;
 }
 html{
@@ -106,9 +106,12 @@ ul
     font-family: 'roboto', sans-serif ;
 
 }
-.href{
- color:tan;
+a{
+    color: tan;
 }
+a:hover, a:active {
+    background-color:White;
+  }
 
 header{
     padding: 2em 0;
