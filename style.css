@@ -38,7 +38,7 @@ opacity: 90%;
 box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.925);
 margin: 2em auto;
 padding: 2em ;
-max-width: auto;
+max-width: 1000px;
 
 }
 body{
@@ -52,36 +52,32 @@ body{
     padding: 11px;
     min-width: 2rem;
     flex-direction: row;
-    justify-content: center;
     justify-content: space-between;
-    border: solid white;
-    border-radius: .25rem;
     background-color:#817f7e;
+    border-radius: .25rem;
     opacity: 100;
-    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.425);
-    flex-basis: 800000px ;
+    box-shadow: 0 2rem 6rem rgba(66, 59, 59, 0.425);
+    flex-basis: 1000px;
 }
 .flexItem--1{
     border: solid white;
     border-radius: .25rem;
     padding: 2em;
     margin-right: 2em;
-    flex-basis: 4000px
-
+    flex-basis: 4000px;   
 }
 .flexItem--2{
     border: solid white;
     border-radius: .25rem;
     padding: 2em;
     margin-right: 2em;
-    flex-basis: 4000px;
-   
+    flex-basis: 4000px;   
 }
 .flexItem--3{
     border: solid white;
     border-radius: .25rem;
     padding: 2em;
-    flex-basis: 4000px
+    flex-basis: 4000px;  
 }
 #AboutMe{
     border:solid white ;
@@ -92,6 +88,14 @@ body{
 #TechStack{
     border: solid white;
     border-radius: .25rem;
+    margin-bottom: 1em; 
+}
+#Projects{
+    border:solid white ;
+    border-radius: .25rem;
+    padding: 1em ;
+    margin-bottom: 1em;  
+    
 }
 h1,
 h2, 
@@ -104,6 +108,9 @@ ul
 {
     text-align: center;
     font-family: 'roboto', sans-serif ;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
 
 }
 a{
@@ -111,7 +118,7 @@ a{
 }
 a:hover, a:active {
     background-color:White;
-  }
+}
 
 header{
     padding: 2em 0;
